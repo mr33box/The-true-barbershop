@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The True Barbershop. Sharp Cuts. Clean Style. Professional grooming services.">
+    <title>The True Barbershop</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">THE TRUE BARBERSHOP</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Book Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="ph ph-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div id="hero-fallback" class="hero-fallback"></div>
+        <video id="hero-video" autoplay muted loop playsinline class="hero-video" poster="images/shopinside1.jpg">
+            <source src="https://res.cloudinary.com/dkmlinqqi/video/upload/q_auto,f_auto/v1775522269/haircut_video_o9nmom.webm" type="video/webm">
+            <source src="https://res.cloudinary.com/dkmlinqqi/video/upload/q_auto,f_auto/v1775522269/haircut_video_o9nmom.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal-up">
+            <h1>Sharp Cuts.<br>Clean Style.</h1>
+            <p>Elevating your grooming experience with masterful precision and timeless techniques.</p>
+            <div class="hero-buttons">
+                <a href="tel:+12108093222" class="btn btn-primary"><i class="ph ph-phone"></i> Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container about-grid">
+            <div class="about-image reveal-left">
+                <img src="images/shopinside1.jpg" alt="Inside The True Barbershop">
+                <div class="experience-badge">
+                    <span class="number">Premium</span>
+                    <span class="text">Grooming</span>
+                </div>
+            </div>
+            <div class="about-text reveal-right">
+                <h2 class="section-title">Mastering the Art of Grooming</h2>
+                <p>At <strong>The True Barbershop</strong>, we combine classic barbering traditions with modern techniques. Your style is our canvas, and our expert barbers are dedicated to ensuring you walk out feeling confident, sharp, and revitalized.</p>
+                <p>Experience a sophisticated atmosphere where every detail is tailored to your comfort and every cut is executed with absolute precision.</p>
+                <ul class="about-features">
+                    <li><i class="ph ph-check-circle"></i> Highly Experienced Barbers</li>
+                    <li><i class="ph ph-check-circle"></i> Luxury Atmosphere</li>
+                    <li><i class="ph ph-check-circle"></i> Premium Products</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Our Services</h2>
+                <p>Tailored grooming services to elevate your personal style.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal-up">
+                    <div class="icon-wrapper">
+                        <i class="ph ph-scissors"></i>
+                    </div>
+                    <h3>Classic Haircut</h3>
+                    <p>A precision cut tailored to your head shape, hair type, and personal style. Includes a wash and styling.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="icon-wrapper">
+                        <i class="ph ph-user-focus"></i>
+                    </div>
+                    <h3>Beard Trim & Sculpt</h3>
+                    <p>Expert shaping and trimming of your beard, finished with premium oils to keep it healthy and sharp.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="icon-wrapper">
+                        <i class="ph ph-drop"></i>
+                    </div>
+                    <h3>Hot Towel Shave</h3>
+                    <p>A traditional straight razor shave accompanied by hot towels and soothing creams for the ultimate relaxation.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="icon-wrapper">
+                        <i class="ph ph-sparkle"></i>
+                    </div>
+                    <h3>Hair Styling</h3>
+                    <p>Professional blow-drying and styling using top-tier products to give you a flawless finish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">The Masterpieces</h2>
+                <p>A glimpse into our craftsmanship and the styles we've perfected.</p>
+            </div>
+            
+            <div class="gallery-masonry">
+                <div class="gallery-item reveal-up">
+                    <img src="images/haircut 1.jpg" alt="Sharp Haircut Style 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.1s;">
+                    <img src="images/haircut client 2.jpg" alt="Sharp Haircut Style 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.2s;">
+                    <img src="images/haircut3.jpg" alt="Sharp Haircut Style 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.3s;">
+                    <img src="images/haircut4.jpg" alt="Sharp Haircut Style 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" style="transition-delay: 0.5s;">
+                    <img src="images/haircut 5.jpg" alt="Sharp Haircut Style 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-up" style="transition-delay: 0.6s;">
+                    <img src="images/haircut6.jpg" alt="Sharp Haircut Style 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <i class="ph ph-magnifying-glass-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="contact-wrapper glass-panel reveal-up">
+                <div class="contact-info">
+                    <h2 class="section-title">Visit Us</h2>
+                    <p class="contact-subtitle">Ready for a fresh look? Call us or drop by.</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <i class="ph ph-phone-call"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+12108093222">+1 210-809-3222</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ph ph-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p><strong>Mon - Sat:</strong> 10:00 AM – 8:00 PM</p>
+                                <p><strong>Sunday:</strong> 10:00 AM – 7:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ph ph-map-pin"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <a href="https://maps.app.goo.gl/9cSeymAVtHoja8rH6" target="_blank">View on Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+12108093222" class="btn btn-primary btn-full"><i class="ph ph-phone"></i> Call Now to Book</a>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13904.996160351113!2d-98.6657934!3d29.3921503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c43d7890cfcf7%3A0xe9f79b29cb5c5cd2!2sThe%20True%20Barbershop!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-content">
+            <div class="footer-brand">
+                <h3>THE TRUE BARBERSHOP</h3>
+                <p>Redefining grooming with precision and craft.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-tiktok-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> The True Barbershop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
